@@ -44,8 +44,8 @@ Nesta sprint, o foco principal é o desenvolvimento de uma calculadora utilizand
 Esta é uma classe JavaScript simples que realiza operações matemáticas básicas e avançadas. Ela suporta as seguintes funcionalidades:
 
 - **Soma** (`+`)
-- **Subtração** (``)
-- **Multiplicação** (``)
+- **Subtração** (`-`)
+- **Multiplicação** (`*`)
 - **Divisão** (`/`) com tratamento para divisão por zero
 - **Potenciação** (`*`)
 - **Raiz quadrada** (`raiz`)
