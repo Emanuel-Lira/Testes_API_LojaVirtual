@@ -11,6 +11,20 @@
 ![Build Status](https://img.shields.io/badge/build-passing-black) 
 ![Version](https://img.shields.io/badge/version-1.0.0-black)
 
+## 📝 Informações
+
+- 🧑🏽 **Nome** - Emanuel
+- 🎓 **Curso** - Análise e  Desenvolvimento de Sistemas
+- 📅 **Semestre** - 2º Semestre
+- 🏙️ **Cidade** - Campina Grande - PB
+<br>
+<a href="https://gitlab.com"><img src="https://gitlab.com/uploads/-/system/user/avatar/23014880/avatar.png?width=800" width="50"></a>
+
+
+--- 
+
+## 📱 Contato
+[![contato](https://img.shields.io/badge/Instagram-black?style=for-the-badge&logo=Instagram)](https://www.instagram.com/emanuell.sl_/) [![contato](https://img.shields.io/badge/LinkedIn-black?style=for-the-badge&logo=LinkedIn&logoColor=blue)](https://www.linkedin.com/in/emanuel-silvalb/) [![Github](https://img.shields.io/badge/Github-black?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/Emanuel-Lira)
 
 
 ## 📋 Organização
@@ -193,6 +207,7 @@ npm test
 - [Julia Fick](https://gitlab.com/JuFick)
 - [Isadora Machado](https://gitlab.com/isaapmachado2001)
 - [Eduarda Vieira](https://gitlab.com/eduarda-wq)
+
 
 ---
 
