@@ -27,7 +27,9 @@
 
 ## 📝 Sobre
 
-Nesta sprint, o foco principal é o desenvolvimento de uma calculadora utilizando JavaScript, com ênfase em práticas de Testes de Software e Desenvolvimento Guiado por Testes (TDD)
+Nesta sprint, o foco principal é o desenvolvimento de uma calculadora utilizando JavaScript, com ênfase em práticas de Testes de Software e Desenvolvimento Guiado por Testes (TDD)[
+
+
 ---
 
 ## 🎯 Objetivos da Sprint
