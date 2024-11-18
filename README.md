@@ -17,9 +17,9 @@
 
 - [Sobre a Sprint](#-sobre)
 - [Objetivos da Sprint](#-objetivos-da-sprint)
-- [Conteúdo da Sprint](#-conteúdo-da-sprint)
-- [Tasks Diárias](#-tasks-diárias)
-- [Tarefas Diárias](#-tarefas-diárias)
+- [estrutura da aplicação](#estrutura-da-aplicação)
+- [Configuração do Projeto](#️-como-configurar-e-executar-o-projeto)
+- [Guia de instalação Node](#guia-de-instalação-do-nodejs-)
 - [Citações e Colaborações](#-citações-e-colaborações)
 - [Licença](#-licença)
 
