@@ -43,37 +43,74 @@ Nesta sprint, o foco principal é o desenvolvimento de uma calculadora utilizand
 ## Estrutura da Aplicação
 
 ### 1. Calculadora JS
-Esta é uma classe JavaScript simples que realiza operações matemáticas básicas e avançadas. Ela suporta as seguintes funcionalidades:
 
-- **Soma** (`+`)
-- **Subtração** (`-`)
-- **Multiplicação** (`*`)
-- **Divisão** (`/`) com tratamento para divisão por zero
-- **Potenciação** (`*`)
-- **Raiz quadrada** (`raiz`)
+## Funcionalidades ⚙️
 
-A classe inclui um método principal, `calcular`, que aceita dois números e uma operação como entrada, retornando o resultado.
+- **Operações básicas**: soma, subtração, multiplicação, divisão.
+- **Funções adicionais**: cálculo de potência e raiz.
+- **Tratamento de erros**:
+    - Erro ao tentar dividir por zero.
+    - Mensagens claras para o usuário.
+- **Interatividade**:
+    - Permite realizar múltiplas operações consecutivas sem precisar reiniciar o programa.
+    
+## Tecnologias 🚀
 
-
+- **Node.js**: para execução no terminal.
+- **Mocha e Chai**: para testes unitários e automáticos.
+- **JavaScript**: para a implementação das funcionalidades.
 
 ## 🛠️ Como Configurar e Executar o Projeto
 ### Pré-requisitos
 
-Certifique-se de que você tenha instalado as seguintes ferramentas:
+Antes de rodar o projeto, você precisa ter o Node.js instalado em sua máquina. O guia de instalação se encontra logo abaixo
 
 - [Node.js](https://nodejs.org/) (versão 14 ou superior recomendada)
 - [npm](https://www.npmjs.com/) (geralmente instalado junto com o Node.js)
-### **Verificar a instalação**
+## Guia de Instalação do Node.js 🌐
 
-Após a instalação, verifique se o Node.js foi instalado corretamente. Abra o terminal ou prompt de comando e execute os seguintes comandos:
+### 1. Baixar o Instalador
 
-- Verifique a versão do **Node.js**:
+Acesse o site oficial do Node.js e baixe a versão mais recente do Node.js.
+
+- **LTS (Long Term Support)**: Versão estável e recomendada para a maioria dos usuários.
+- **Current**: Versão com os recursos mais recentes, mas pode ser instável.
+
+### 2. Instalar o Node.js
+
+Após o download, execute o instalador correspondente ao seu sistema operacional.
+
+- **No Windows**: Execute o arquivo `.msi` e siga as instruções para concluir a instalação.
+- **No macOS**: Execute o arquivo `.pkg` e siga as instruções.
+- **No Linux**: Dependendo da distribuição, use o gerenciador de pacotes da sua distribuição.
+
+### No Linux
+
+Os comandos para instalação geralmente são:
+
+Ubuntu/Debian:
+
 ```bash
+sudo apt update
+sudo apt install nodejs npm
 
+```
+
+### 3. Verificar a Instalação ✔️
+
+Após a instalação, verifique se o Node.js foi instalado corretamente rodando os seguintes comandos:
+
+- **Versão do Node.js**:
+```bash
 node -v
 
 ```
-Isso deve retornar algo como v14.18.0 (dependendo da versão que você instalou).
+- **Versão do NPM**:
+```bash
+npm -v
+
+```
+
 
 ### 2. Clonar o repositório
 
@@ -87,25 +124,61 @@ cd Sprints
 
 ```
 
-### 3. Instalar dependências
+## Configuração do Projeto Node.js ⚙️
 
-No diretório raiz do projeto, instale as dependências do projeto com o npm:
+### Inicializar o Projeto
+
+Inicie o projeto criando o arquivo `package.json`:
 
 ```bash
-
-
-npm install
-npm install --save prompt-sync mocha chai
-
+npm init -y
 
 ```
 
-### 4. Executar os testes
 
-Para garantir que o código da calculadora está funcionando corretamente, execute os testes:
+## 4. Instalar Dependências 📦
+
+Instale as dependências necessárias para testes:
 
 ```bash
+npm install --save-dev mocha chai
 
+```
+
+## 5. Configuração do Script de Teste 🧪
+
+Edite o arquivo `package.json` e altere tudo por script de teste. Substitua tudo por:
+
+```{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^10.8.2"
+  },
+  "type": "module"
+}
+```
+
+## 6. Rodar o Projeto 🚀
+
+Para rodar o seu projeto Node.js, use o comando:
+
+```bash
+node calculadora.js
+
+```
+
+## 7. Rodar os Testes 🧪
+
+Agora, para rodar os testes com Mocha, use o seguinte comando:
+
+```bash
 npm test
 
 ```
