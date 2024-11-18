@@ -40,22 +40,75 @@ Este projeto faz parte da **Sprint 1**, que abrange temas como organização, de
 - Introduzir conceitos de Cybersecurity.
 
 ---
+## Estrutura da Aplicação
 
-## 📚 Conteúdo da Sprint
+### 1. Calculadora JS
+Esta é uma classe JavaScript simples que realiza operações matemáticas básicas e avançadas. Ela suporta as seguintes funcionalidades:
 
-| Resumo  | Atividades                                                    |  Issues                        | Status |
-|------|-------------------------------------------------------------  | ------------------------------ |-------|
-|[DIA 1](resumos/dia1.md)| Introdução ao Git e GitLab;                 | [Dia 1 -  Tasks](sprints8071939/sprint-1#1)               |  ✅ |
-|[DIA 2](resumos/dia2.md)| Scrum e desenvolvimento ágil                | [Dia 2 - Tasks](sprints8071939/sprint-1#2)             |  ✅  |
-|[DIA 3](resumos/dia3.md)| Fundamentos do teste de software            | [Dia 3 - Tasks](sprints8071939/sprint-1#10)              |  ✅  |
-|[DIA 4](resumos/dia4.md)| Fundamentos do teste de software            | [Dia 4 - Tasks](sprints8071939/sprint-1#16)               |  ✅  |
-|[DIA 5](resumos/dia5.md)| Fundamentos do teste de software            | [Dia 5 - Tasks](sprints8071939/sprint-1#11)               |  ✅  |
-|[DIA 6](resumos/dia6.md)| Fundamentos do teste de software (Back-End) | [Dia 6 - Tasks](sprints8071939/sprint-1#12)               |  ✅  |
-|[DIA 7](resumos/dia7.md)| SQL                                         | [Dia 7 - Tasks](sprints8071939/sprint-1#13)               |  ✅  |
-|[DIA 8](resumos/dia8.md)| NOSQL                                       | [Dia 8 - Tasks](sprints8071939/sprint-1#14)              |  ✅  |
-|[DIA 9](resumos/dia9.md)| Cybersecurity                               | [Dia 9 - Tasks](sprints8071939/sprint-1#15)               |  ✅  |
-|[Commits](https://gitlab.com/sprints8071939/sprint-1/-/commits/main/?ref_type=HEADS)| Apresentação final | [Boards](https://gitlab.com/sprints8071939/sprint-1/-/boards) |  [ ]   |         
----
+- **Soma** (`+`)
+- **Subtração** (``)
+- **Multiplicação** (``)
+- **Divisão** (`/`) com tratamento para divisão por zero
+- **Potenciação** (`*`)
+- **Raiz quadrada** (`raiz`)
+
+A classe inclui um método principal, `calcular`, que aceita dois números e uma operação como entrada, retornando o resultado.
+
+
+
+## 🛠️ Como Configurar e Executar o Projeto
+### Pré-requisitos
+
+Certifique-se de que você tenha instalado as seguintes ferramentas:
+
+- [Node.js](https://nodejs.org/) (versão 14 ou superior recomendada)
+- [npm](https://www.npmjs.com/) (geralmente instalado junto com o Node.js)
+### **Verificar a instalação**
+
+Após a instalação, verifique se o Node.js foi instalado corretamente. Abra o terminal ou prompt de comando e execute os seguintes comandos:
+
+- Verifique a versão do **Node.js**:
+```bash
+
+node -v
+
+```
+Isso deve retornar algo como v14.18.0 (dependendo da versão que você instalou).
+
+### 2. Clonar o repositório
+
+Clone este repositório para sua máquina local utilizando o Git:
+
+```bash
+
+
+git clone https://gitlab.com/sprints8071939/sprint-1.git
+cd Sprints
+
+```
+
+### 3. Instalar dependências
+
+No diretório raiz do projeto, instale as dependências do projeto com o npm:
+
+```bash
+
+
+npm install
+npm install --save prompt-sync mocha chai
+
+
+```
+
+### 4. Executar os testes
+
+Para garantir que o código da calculadora está funcionando corretamente, execute os testes:
+
+```bash
+
+npm test
+
+```
 
 ## 🤝 Citações e Colaborações
 
@@ -65,11 +118,8 @@ Este projeto faz parte da **Sprint 1**, que abrange temas como organização, de
 - [Beta](https://gitlab.com/betaniaAmaral)
 - [Diego Nachtigall](https://gitlab.com/ditsguts)
 - [Julia Fick](https://gitlab.com/JuFick)
-- [Breno Lima](https://gitlab.com/Brenomax)
-- [Evelyn](https://gitlab.com/04julxa)
-- [Francinaldo](https://gitlab.com/Batissta)
-- [Felipe Cabral](https://gitlab.com/FCabral07)
-- [Edno ](https://gitlab.com/ednosilva)
+- [Isadora Machado](https://gitlab.com/isaapmachado2001)
+- [Eduarda Vieira](https://gitlab.com/eduarda-wq)
 
 ---
 
