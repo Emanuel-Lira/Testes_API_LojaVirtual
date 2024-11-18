@@ -224,13 +224,12 @@ npm test
 - [igor Coelho](https://gitlab.com/igorcoelh0)
 - [Isadora](https://gitlab.com/isaapmachado2001)
 - [Beta](https://gitlab.com/betaniaAmaral)
-<!-- - [Diego P](https://gitlab.com/dgomp) -->
-<!-- - [Carlos Daniel](https://gitlab.com/carlos-daniel1) -->
 - [Diego Nachtigall](https://gitlab.com/ditsguts)
 - [Julia Fick](https://gitlab.com/JuFick)
-- [Isadora Machado](https://gitlab.com/isaapmachado2001)
 - [Eduarda Vieira](https://gitlab.com/eduarda-wq)
-
+<!-- - [Isadora Machado](https://gitlab.com/isaapmachado2001) -->
+<!-- - [Diego P](https://gitlab.com/dgomp) -->
+<!-- - [Carlos Daniel](https://gitlab.com/carlos-daniel1) -->
 
 ---
 <!-- 
