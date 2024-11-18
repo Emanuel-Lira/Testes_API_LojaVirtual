@@ -27,17 +27,15 @@
 
 ## 📝 Sobre
 
-Este projeto faz parte da **Sprint 1**, que abrange temas como organização, desenvolvimento ágil, testes de software, Cybersecurity e versionamento de código com Git e GitLab. Ao longo da Sprint, serão desenvolvidos exercícios e resumos para consolidar o aprendizado.
-
+Nesta sprint, o foco principal é o desenvolvimento de uma calculadora utilizando JavaScript, com ênfase em práticas de Testes de Software e Desenvolvimento Guiado por Testes (TDD)
 ---
 
 ## 🎯 Objetivos da Sprint
 
-- Introduzir práticas ágeis de desenvolvimento utilizando o Scrum.
-- Utilizar o Git e GitLab para versionamento de código e documentação.
-- Explorar fundamentos de testes de software (incluindo princípios de Myers e Pareto).
-- Aprender sobre bancos de dados NoSQL e SQL.
-- Introduzir conceitos de Cybersecurity.
+- Explorar o conceito e a prática de **Testes Exploratórios**.
+- Aprender e consolidar fundamentos da linguagem de programação **JavaScript**.
+- Introduzir e praticar **TDD (Test Driven Development)**, ou Desenvolvimento Guiado por Testes.
+- Utilizar bibliotecas de teste como **Mocha** e **Chai** para escrever e executar testes automatizados.
 
 ---
 ## Estrutura da Aplicação
