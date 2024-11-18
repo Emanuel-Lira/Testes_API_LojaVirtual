@@ -13,7 +13,7 @@
 
 ## 📝 Informações
 
-- 🧑🏽 **Nome** - Emanuel
+- 🧑🏽 **Nome** - Emanuel Silva lira
 - 🎓 **Curso** - Análise e  Desenvolvimento de Sistemas
 - 📅 **Semestre** - 2º Semestre
 - 🏙️ **Cidade** - Campina Grande - PB
