@@ -35,9 +35,8 @@
 - [![Sobre](https://img.shields.io/badge/Sobre-%23ffffff?style=flat&color=black)](#-sobre)
 - [![Conteudo](https://img.shields.io/badge/Objetivos-%23ffffff?style=flat&color=black)](#-objetivos-do-projeto)
 - [![Conteudo](https://img.shields.io/badge/Tecnologias-%23ffffff?style=flat&color=black)](#tecnologias--e-ferramentas)
-- [![Tasks](https://img.shields.io/badge/Calculadora.js-%23ffffff?style=flat&color=black)](#1-calculadora-js)
-- [![Sobre](https://img.shields.io/badge/Configuração--projeto-%23ffffff?style=flat&color=black)](#-como-configurar-e-executar-o-projeto)
-- [![Sobre](https://img.shields.io/badge/Instalação--node-%23ffffff?style=flat&color=black)](#guia-de-instalação-do-nodejs-)
+- [![Tasks](https://img.shields.io/badge/K6-%23ffffff?style=flat&color=black)](#calculadora)
+- [![Tasks](https://img.shields.io/badge/Calculadora.js-%23ffffff?style=flat&color=black)](#testes-k6)
 - [![Citações](https://img.shields.io/badge/Citações-%23ffffff?style=flat&color=black)](#-citações-e-colaborações)
 
 ---
