@@ -80,11 +80,11 @@
 
 ---
 ## Calculadora
-- [Guia de instalação Calculadora]()
+- [Guia de instalação Calculadora](https://gitlab.com/sprints8071939/sprint-1/-/blob/main/Calculadora/readme.md?ref_type=heads)
 
 
 ## Testes K6
-- [Guia de instalação Testes K6]()
+- [Guia de instalação Testes K6](https://gitlab.com/sprints8071939/sprint-1/-/blob/main/TestesK6/Readme.md?ref_type=heads)
 
 
 
