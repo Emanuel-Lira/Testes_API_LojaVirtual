@@ -75,18 +75,19 @@
 - **JavaScript**: para a implementação das funcionalidades.
 - **Swagger** para documentação API Rest
 - **Xmind** para a elaboração do mapa mental
-- Newman para relatorio de testes
+- **Newman** para relatorio de testes
+- **K6**Testes de script em Javascript
 
 ---
 ## Calculadora
 - [Guia de instalação Calculadora](https://gitlab.com/sprints8071939/sprint-1/-/blob/main/Calculadora/readme.md?ref_type=heads)
 
+---
 
 ## Testes K6
 - [Guia de instalação Testes K6](https://gitlab.com/sprints8071939/sprint-1/-/blob/main/TestesK6/Readme.md?ref_type=heads)
 
-
-
+---
 
 ## 🤝 Citações e Colaborações
 
@@ -94,15 +95,13 @@
 - [Giusepp de Couto](https://gitlab.com/giuuppa)
 - [igor Coelho](https://gitlab.com/igorcoelh0)
 - [Isadora](https://gitlab.com/isaapmachado2001)
-- [Beta](https://gitlab.com/betaniaAmaral)
+- [Betania](https://gitlab.com/betaniaAmaral)
 - [Diego Nachtigall](https://gitlab.com/ditsguts)
 - [Julia Fick](https://gitlab.com/JuFick)
 - [Eduarda Vieira](https://gitlab.com/eduarda-wq)
-<!-- - [Isadora Machado](https://gitlab.com/isaapmachado2001) -->
-<!-- - [Diego P](https://gitlab.com/dgomp) -->
-<!-- - [Carlos Daniel](https://gitlab.com/carlos-daniel1) -->
+- [Diego P](https://gitlab.com/dgomp)
+- [Carlos Daniel](https://gitlab.com/carlos-daniel1)
 
----
 <!-- 
 ## 📝 Informações
 
