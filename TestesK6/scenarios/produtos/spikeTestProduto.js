@@ -8,9 +8,10 @@ const requestDuration = new Trend("request_duration");
 
 export const options = {
   stages: [
-    { duration: "1m", target: 150 },
-    { duration: "1m", target: 500 },
-    { duration: "1m", target: 150 },
+    { duration: "10s", target: 0 },    
+    { duration: "30s", target: 150 },  
+    { duration: "30s", target: 150 },   
+    { duration: "30s", target: 0 },
   ],
   thresholds: {
     success_rate: ["rate>0.95"],

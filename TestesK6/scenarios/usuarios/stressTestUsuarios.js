@@ -8,14 +8,12 @@ const requestDuration = new Trend("request_duration");
 
 export const options = {
   stages: [
-    { duration: "1m", target: 200 },
-    { duration: "1m", target: 300 },
-    { duration: "1m", target: 400 },
-    { duration: "1m", target: 500 },
-    { duration: "1m", target: 600 },
-    { duration: "1m", target: 700 },
-    { duration: "1m", target: 800 },
-    { duration: "1m", target: 900 },
+    { duration: "1m", target: 300 },   // Ramp-up para 300 usuários
+    { duration: "2m", target: 600 },   // Aumenta para 600 usuários
+    { duration: "2m", target: 900 },   // Aumenta para 900 usuários
+    { duration: "2m", target: 1200 },  // Aumenta para 1200 usuários
+    { duration: "2m", target: 1500 },  // Mantém o pico de 1500 usuários
+    { duration: "1m", target: 0 }, 
   ],
   thresholds: {
     success_rate: ["rate>0.95"],
@@ -28,7 +26,7 @@ export const options = {
 
 export function handleSummary(data) {
   return {
-    "TesteCargaUsuarios.html": htmlReport(data, {
+    "StressTestUsuarios.html": htmlReport(data, {
       title: "Stress Test - ServeRest /usuarios",
       description: `
         Stress Test na rota /usuarios com:

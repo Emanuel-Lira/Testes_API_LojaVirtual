@@ -8,9 +8,10 @@ const requestDuration = new Trend("request_duration");
 
 export const options = {
   stages: [
-    { duration: "1m", target: 150 },
-    { duration: "1m", target: 500 },
-    { duration: "1m", target: 150 },
+    { duration: "10s", target: 0 },    // Início com 0 usuários
+    { duration: "30s", target: 150 },  // Pico até 150 usuários
+    { duration: "30s", target: 150 },   // Sustentar o pico
+    { duration: "30s", target: 0 },
   ],
   thresholds: {
     success_rate: ["rate>0.95"],
@@ -23,7 +24,7 @@ export const options = {
 
 export function handleSummary(data) {
   return {
-    "TesteCargaUsuarios.html": htmlReport(data, {
+    "SpikeTestUsuarios.html": htmlReport(data, {
       title: "Spike Test - ServeRest /usuarios",
       description: `
         Spike Test na rota /usuarios com:
