@@ -105,7 +105,4 @@ Substitua nome_da_pastapelo nome da pasta que deseja acessar dentro de scenarios
 
 Para rodar o teste, execute o seguinte comando no terminal:
 
-k6 run nome_do_arquivo.js
-Substitua nome_do_arquivo.jspelo nome do arquivo de teste desejado. Por exemplo:
-
-```k6 run teste_usuarios.js```
+```k6 run nome_do_arquivo.js```
